@@ -15,7 +15,7 @@ function setup() {
   var y = (windowHeight - height) / 2;
   cnv.position(x, y);
   coin1 = loadImage('ence.png');
-  tausta = loadImage('austa.png');
+  tausta = loadImage('tausta.png');
   piste = 50;
 }
 
