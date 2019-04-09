@@ -1,6 +1,11 @@
 var coin1;
 var tausta;
 var piste;
+var fontti;
+
+function preload() {
+  fontti = loadFont(Antreas.ttf);
+}
 
 function setup() {
   var cnv = createCanvas(600, 600)
@@ -26,6 +31,7 @@ function score() {
   fill(5, 0, 0,);
   textAlign(CENTER);
   textSize(50);
+  textFont(fontti);
   text(piste, 300, 50);
 }
 
