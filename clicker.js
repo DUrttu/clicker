@@ -1,7 +1,8 @@
 var coin1;
 var tausta;
 var piste;
-var fontti;
+
+let fontti;
 
 function preload() {
   fontti = loadFont('Antreas.ttf');
