@@ -7,8 +7,8 @@ function setup() {
   var x = (windowWidth - width) / 2;
   var y = (windowHeight - height) / 2;
   cnv.position(x, y);
-  coin1 = loadImage('https://raw.githubusercontent.com/DUrttu/clicker/master/ence.png?token=AuprPdr5QEeHZxSkmbSppxsOFzZL1sl3ks5crNjRwA%3D%3D');
-  tausta = loadImage('https://raw.githubusercontent.com/DUrttu/clicker/master/tausta.png?token=AuprPU_6txDL0V6FYHoQ8aVUzRcq8DQGks5crNjNwA%3D%3D');
+  coin1 = loadImage(ence.png);
+  tausta = loadImage(tausta.png);
   piste = 50;
 }
 
@@ -35,6 +35,6 @@ function mousePressed() {
 
 function update() {
   if (piste < 1 ) {
-    coin1 = loadImage('https://raw.githubusercontent.com/DUrttu/clicker/master/allu.png?token=AuprPbdVXxiO4xKbBEbxYGUJX76q9Wytks5crNiIwA%3D%3D');
+    coin1 = loadImage(allu.png);
   }
 }
