@@ -4,7 +4,7 @@ var piste;
 var fontti;
 
 function preload() {
-  fontti = loadFont(Antreas.ttf);
+  fontti = loadFont('Antreas.ttf');
 }
 
 function setup() {
