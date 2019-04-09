@@ -2,7 +2,6 @@ var coin1;
 var tausta;
 var piste;
 
-
 let fontti;
 
 function preload() {
