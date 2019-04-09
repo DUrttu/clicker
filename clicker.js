@@ -37,7 +37,8 @@ function score() {
 }
 
 function mousePressed() {
-  piste -= 1;
+  if (piste < 0 ) {
+   piste -= 1;}
 }
 
 function update() {
