@@ -1,5 +1,5 @@
 var coin1;
-var tausta;
+var taka;
 var piste;
 var testi;
 let fontti;
@@ -14,12 +14,12 @@ function setup() {
   var y = (windowHeight - height) / 2;
   cnv.position(x, y);
   coin1 = loadImage('ence.png');
-  tausta = loadImage('tausta.png');
+  taka = loadImage('tausta.png');
   piste = 50;
 }
 
 function draw() {
-  background(tausta);
+  background(taka);
   image(coin1, 170, 170);
   score();
   if (piste < 1 ) {
