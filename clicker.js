@@ -37,7 +37,7 @@ function score() {
 }
 
 function mousePressed() {
-  if (piste < 0 ) {
+  if (piste > 0 ) {
    piste -= 1;}
 }
 
