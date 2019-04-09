@@ -13,8 +13,8 @@ function setup() {
   var x = (windowWidth - width) / 2;
   var y = (windowHeight - height) / 2;
   cnv.position(x, y);
-  coin1 = loadImage(ence.png);
-  tausta = loadImage(tausta.png);
+  coin1 = loadImage('ence.png');
+  tausta = loadImage('austa.png');
   piste = 50;
 }
 
@@ -42,6 +42,6 @@ function mousePressed() {
 
 function update() {
   if (piste < 1 ) {
-    coin1 = loadImage(allu.png);
+    coin1 = loadImage('allu.png');
   }
 }
