@@ -45,3 +45,5 @@ function update() {
     coin1 = loadImage('allu.png');
   }
 }
+
+
