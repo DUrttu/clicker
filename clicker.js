@@ -15,7 +15,7 @@ function setup() {
   cnv.position(x, y);
   coin1 = loadImage('ence.png');
   taka = loadImage('tausta.png');
-  piste = 10000;
+  piste = 10;
 }
 
 function draw() {
